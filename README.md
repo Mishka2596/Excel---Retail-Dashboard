@@ -35,17 +35,7 @@ These were converted into a consistent Excel date format to enable accurate mont
 
 ---
 
-#### 2. Removed Blank & Incomplete Records
-Rows containing:
-- missing sales values
-- incomplete regions
-- blank categories
-
-were identified and cleaned to improve reporting accuracy and avoid issues in Pivot Tables and slicers.
-
----
-
-#### 3. Corrected Inconsistent Category Names
+#### 2. Corrected Inconsistent Category Names
 Several fields contained inconsistent naming conventions such as:
 - “North”
 - “north”
@@ -55,7 +45,7 @@ These values were standardised to ensure categories grouped correctly within Piv
 
 ---
 
-#### 4. Cleaned Extra Spaces & Formatting Issues
+#### 3. Cleaned Extra Spaces & Formatting Issues
 Used Excel functions such as:
 - `TRIM()`
 - `CLEAN()`
@@ -68,7 +58,7 @@ to remove:
 
 ---
 
-#### 5. Converted Dataset into an Excel Table
+#### 4. Converted Dataset into an Excel Table
 The raw dataset was converted into a structured Excel Table to:
 - improve scalability
 - enable dynamic Pivot Table updates
@@ -76,26 +66,24 @@ The raw dataset was converted into a structured Excel Table to:
 
 ---
 
-#### 6. Checked for Duplicate Records
+#### 5. Checked for Duplicate Records
 Reviewed the dataset for duplicate transactions and removed unnecessary duplicate entries to maintain data integrity.
 
 ---
 
-#### 7. Created Calculated Fields
+#### 6. Created Calculated Fields
 Additional calculated fields were added to support reporting and KPI analysis, including:
-- Revenue calculations
-- Variance calculations
-- Percentage contribution metrics
+- Month Column
+- Quarter Column
 
 ---
 
 # Dashboard Features
 The dashboard includes:
-- Total Revenue KPI
-- Total Orders KPI
 - Monthly Sales Trends
+- Quarterly Sales Trends
 - Top Performing Categories
-- Regional Sales Analysis
+- Top Performing Sales Reps
 - Interactive slicers for dynamic filtering
 
 ---
@@ -131,7 +119,4 @@ Some insights identified from the dashboard include:
 # Dashboard Preview
 *(Insert dashboard screenshots here)*
 
----
 
-# 🔗 About This Project
-This project was created as part of my data analytics and business intelligence portfolio to strengthen my Excel dashboarding, reporting, and data preparation skills using Microsoft Excel.
