@@ -58,20 +58,12 @@ to remove:
 
 ---
 
-#### 4. Converted Dataset into an Excel Table
-The raw dataset was converted into a structured Excel Table to:
-- improve scalability
-- enable dynamic Pivot Table updates
-- simplify dashboard maintenance
-
----
-
-#### 5. Checked for Duplicate Records
+#### 4. Checked for Duplicate Records
 Reviewed the dataset for duplicate transactions and removed unnecessary duplicate entries to maintain data integrity.
 
 ---
 
-#### 6. Created Calculated Fields
+#### 5. Created Calculated Fields
 Additional calculated fields were added to support reporting and KPI analysis, including:
 - Month Column
 - Quarter Column
@@ -117,4 +109,5 @@ Some insights identified from the dashboard include:
 ---
 
 # Dashboard Preview
-*(Insert dashboard screenshots here)*
+<img width="530" height="304" alt="image" src="https://github.com/user-attachments/assets/647e7486-5818-4e46-ad48-9f8e4ac6cc47" />
+
